@@ -30,9 +30,9 @@ __      __| |__    __ _ | |_  ___ | |__    __ _  _ __
  \ V  V / | | | || (_| || |_ \__ \| |_) || (_| || | | |
   \_/\_/  |_| |_| \__,_| \__||___/|_.__/  \__,_||_| |_|
    {Fore.YELLOW}                                                              
-Coded by Mr Juice
-Chat Me https://bio.link/mrjuice
-Whatsapp number banning tool
+BAN BOT BY by GABBY
+Chat Me https://wa.me254112842772
+Whatsapp number ban
 {Fore.CYAN}
 *************************************************
    {Fore.WHITE} ''')
@@ -40,33 +40,33 @@ banner_display()
 #
 #
 def program():
-    number = input("[+] Put Number with country code like +263: +")
+    number = input("[+] Put Number with country code like +254: +")
     realnumber = "+"+number
     check = number.isnumeric()
     lennber = len(number)
     if (check == True):
-        if (lennber < 10 or lennber > 10):
-            delay_print(f"{Fore.RED}Number must be 10 digits\n")
+        if (lennber < 12 or lennber > 12):
+            delay_print(f"{Fore.RED}Number must be 12 digits\n")
             program()
-        elif (lennber==10):
+        elif (lennber==12):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
-            delay_print(f"{Fore.YELLOW}2) Information about this number\n")
+            delay_print(f"{Fore.YELLOW}2) Hack this number\n")
             option = input(f"{Fore.YELLOW}[+] Choose an option: ")
             if (option=="1"):
                 delay_print(f"{Fore.YELLOW}Are you sure to ban "+realnumber+"?\n")
                 yesorno1 = input("(Y/N): ")
-                delay_print("8579 reports Have been send and "+realnumber+" will be banned in less than 8 hours!")
-                data.lockout()
+                delay_print("8579 reports Have been send and "+realnumber+" will be banned in less than 5 mins!")
+                program()
 
             elif (option=="2"):
                 delay_print(f"{Fore.YELLOW}Gather information for "+realnumber+"?\n")
                 yesorno2 = input("(Y/N): ")
-                delay_print("Name: 47hxl-53r\nStatus: HACKED by Mr Juice!")
-                data.lockout()
+                delay_print("Name: 47hxl-53r\nStatus: fucked by Gabby!")
+                program()
 
             else:
                 delay_print(f"{Fore.RED}It's not an option\n")
-                program()
+               program()
 
 
     else:
