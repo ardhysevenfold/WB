@@ -47,7 +47,7 @@ def program():
     if (check == True):
         if (lennber < 12 or lennber > 12):
             delay_print(f"{Fore.RED}Number must be 12 digits\n")
-            program()
+            data.lockout()
         elif (lennber==12):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
             delay_print(f"{Fore.YELLOW}2) Hack this number\n")
@@ -56,13 +56,13 @@ def program():
                 delay_print(f"{Fore.YELLOW}Are you sure to ban "+realnumber+"?\n")
                 yesorno1 = input("(Y/N): ")
                 delay_print("8579 reports Have been send and "+realnumber+" will be banned in less than 5 mins!")
-                program()
+                data.lockout()
 
             elif (option=="2"):
                 delay_print(f"{Fore.YELLOW}Gather information for "+realnumber+"?\n")
                 yesorno2 = input("(Y/N): ")
                 delay_print("Name: 47hxl-53r\nStatus: fucked by Gabby!")
-                program()
+                data.lockout()
 
             else:
                 delay_print(f"{Fore.RED}It's not an option\n")
