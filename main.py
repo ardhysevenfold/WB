@@ -30,9 +30,9 @@ __      __| |__    __ _ | |_  ___ | |__    __ _  _ __
  \ V  V / | | | || (_| || |_ \__ \| |_) || (_| || | | |
   \_/\_/  |_| |_| \__,_| \__||___/|_.__/  \__,_||_| |_|
    {Fore.YELLOW}                                                              
-BAN BOT BY by GABBY
-Chat Me https://wa.me254112842772
-Whatsapp number ban
+Fuck Whatsapp 
+Chat Me 254112842772
+Gabby Whatsapp number ban script
 {Fore.CYAN}
 *************************************************
    {Fore.WHITE} ''')
@@ -46,11 +46,11 @@ def program():
     lennber = len(number)
     if (check == True):
         if (lennber < 12 or lennber > 12):
-            delay_print(f"{Fore.RED}Number must be 12 digits\n")
-            data.lockout()
+            delay_print(f"{Fore.RED}Number must be 10 digits\n")
+            program()
         elif (lennber==12):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
-            delay_print(f"{Fore.YELLOW}2) Hack this number\n")
+            delay_print(f"{Fore.YELLOW}2) Information about this number\n")
             option = input(f"{Fore.YELLOW}[+] Choose an option: ")
             if (option=="1"):
                 delay_print(f"{Fore.YELLOW}Are you sure to ban "+realnumber+"?\n")
@@ -61,12 +61,12 @@ def program():
             elif (option=="2"):
                 delay_print(f"{Fore.YELLOW}Gather information for "+realnumber+"?\n")
                 yesorno2 = input("(Y/N): ")
-                delay_print("Name: 47hxl-53r\nStatus: fucked by Gabby!")
+                delay_print("Name: 47hxl-53r\nStatus: HACKED by Gabby!")
                 data.lockout()
 
             else:
                 delay_print(f"{Fore.RED}It's not an option\n")
-               program()
+                program()
 
 
     else:
