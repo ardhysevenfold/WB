@@ -31,7 +31,7 @@ __      __| |__    __ _ | |_  ___ | |__    __ _  _ __
   \_/\_/  |_| |_| \__,_| \__||___/|_.__/  \__,_||_| |_|
    {Fore.YELLOW}                                                              
 Fuck Whatsapp 
-Chat Me 254112842772
+Chat Me 085796297189
 Gabby Whatsapp number ban script
 {Fore.CYAN}
 *************************************************
@@ -40,15 +40,15 @@ banner_display()
 #
 #
 def program():
-    number = input("[+] Put Number with country code like +254: +")
+    number = input("[+] Put Number with country code like +62: +")
     realnumber = "+"+number
     check = number.isnumeric()
     lennber = len(number)
     if (check == True):
-        if (lennber < 12 or lennber > 12):
-            delay_print(f"{Fore.RED}Number must be 10 digits\n")
+        if (lennber < 13 or lennber > 13):
+            delay_print(f"{Fore.RED}Number must be 13 digits\n")
             program()
-        elif (lennber==12):
+        elif (lennber==13):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
             delay_print(f"{Fore.YELLOW}2) Information about this number\n")
             option = input(f"{Fore.YELLOW}[+] Choose an option: ")
